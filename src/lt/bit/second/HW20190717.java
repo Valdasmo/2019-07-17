@@ -1,4 +1,4 @@
-package li.bit.second;
+package lt.bit.second;
 
 public class HW20190717 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package li.bit.second;
+package lt.bit.second;
 
 public class PrimitiveDataTypes {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package li.bit.second;
+package lt.bit.second;
 
 public class JavaMath {
     public static void main(String[] args) {

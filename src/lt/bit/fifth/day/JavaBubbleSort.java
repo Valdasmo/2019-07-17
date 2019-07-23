@@ -1,4 +1,4 @@
-package lt.bit.lt.bit.fifth.day;
+package lt.bit.fifth.day;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package lt.bit.lt.bit.fifth.day;
+package lt.bit.fifth.day;
 
 public class JavaSelectionSort {
     public static void main(String[] args) {

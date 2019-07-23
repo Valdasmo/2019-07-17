@@ -2,9 +2,9 @@ package lt.bit.fourth.day;
 
 import java.util.Scanner;
 
-public class JavaMethods {
-    public static void main(String[] args) {
-        printSome();
+//public class JavaMethods {
+//    public static void main(String[] args) {
+//        printSome();
 
 
 //        makeTreesArray();

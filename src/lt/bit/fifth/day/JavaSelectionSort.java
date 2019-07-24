@@ -2,15 +2,16 @@ package lt.bit.fifth.day;
 
 public class JavaSelectionSort {
     public static void main(String[] args) {
-        int[] arrayForSort = new int[50];
+        int[] arrayForSort = new int[10000];
         for (int i = 0; i < arrayForSort.length; i++) {
             arrayForSort[i] = (int) (Math.random() * 1000);
         }
+        System.out.println("Filled array.");
         long start = System.currentTimeMillis();
         selectionSort(arrayForSort);
         long stop = System.currentTimeMillis();
         long result = stop - start;
-        System.out.println("Time: " + result + " ms");
+        System.out.println("Time: " + result + " mS");
         for (int i : arrayForSort) {
             System.out.print(i);
             System.out.print(" ");
@@ -24,14 +25,11 @@ public class JavaSelectionSort {
                 if (arrayForSort[j] < arrayForSort[index]) {
                     index = j;
                 }
-                    int smallerArrayNumber = arrayForSort[index]; //TODO
-                    arrayForSort[index] = arrayForSort[i];
-                    arrayForSort[i] = smallerArrayNumber;
-                }
             }
-
-            return null;
-
+            int smallerArrayNumber = arrayForSort[index]; //TODO
+            arrayForSort[index] = arrayForSort[i];
+            arrayForSort[i] = smallerArrayNumber;
         }
-
+        return arrayForSort;
+    }
 }

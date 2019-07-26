@@ -1,4 +1,4 @@
-package lt.bit.oop;
+package lt.bit.oop_1;
 
 public class Car {
     protected short speed = 100;

@@ -1,2 +1,4 @@
-Hello my friend!
-How are you?
+2019-07-30;12345;Rytis
+
+2019-07-31
+Id: 12345, Name: Rytis

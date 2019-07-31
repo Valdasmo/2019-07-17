@@ -1,4 +1,4 @@
-package lt.bit.first;
+package lt.bit.first.day;
 
 public class MainWithArgs {
     public static void main(String[] args) {

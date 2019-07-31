@@ -1,4 +1,4 @@
-package lt.bit.oop_1;
+package lt.bit.lt.bit.oop;
 
 class ArithmeticOperations {
     public int adder(int a, int b){

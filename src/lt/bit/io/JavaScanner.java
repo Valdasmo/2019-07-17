@@ -8,9 +8,8 @@ public class JavaScanner {
             System.out.println("Input String: ");
             String stringData = input.next();
             System.out.println("your string ... " + stringData.length());
-        }
-            catch (Exception ex){
-                ex.printStackTrace();
-            }
+        } catch (Exception ex){
+            ex.printStackTrace();
         }
     }
+}

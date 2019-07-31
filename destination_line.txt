@@ -1,0 +1,8 @@
+Banking: To deal with transaction management.
+Retail: Billing applications that you see in a store/restaurant are completely written in Java.
+Information Technology: Java is designed to solve implementation dependencies.
+Android: Applications are either written in Java or use Java API.
+Financial services: It is used in server-side applications.
+Stock market: To write algorithms as to which company they should invest in.
+Big Data: Hadoop MapReduce framework is written using Java.
+Scientific and Research Community: To deal with huge amount of data.

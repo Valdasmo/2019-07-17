@@ -1,6 +1,6 @@
 package lt.bit.oop.interfaces;
 
-public class Person implements Info{
+public class Person implements Info {
     String name;
 
     public Person(String name) {

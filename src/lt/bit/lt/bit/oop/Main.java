@@ -1,4 +1,4 @@
-package lt.bit.oop_1;
+package lt.bit.lt.bit.oop;
 
 public class Main {
     public static void main(String[] args) {

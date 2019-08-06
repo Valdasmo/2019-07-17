@@ -8,7 +8,7 @@ public class JavaWorkingWithArrays {
 //        changeElementInArray();
 //        insertElementInArray();
 //        searchMinMaxElement();
-        copyingArrays();
+//        copyingArrays();
     }
 
     private static void copyingArrays() {

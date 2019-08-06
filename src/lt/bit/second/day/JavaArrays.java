@@ -20,7 +20,7 @@ public class JavaArrays {
         System.out.println(Arrays.toString(intArrayWithNumber));
         int[] intArrayWithNumberTwo = new int[]{}; // Array with literals
         System.out.println(Arrays.toString(intArrayWithNumberTwo));
-        int[][] intArrayMultidimensional = new int[2][];
+        int[][] intArrayMultidimensional = new int[5][2];
         int[][] intJaggedArray = new int[2][];
 //        intArrayMultidimensional[0][0] = 12;
 //        intArrayMultidimensional[0][1] = 1;

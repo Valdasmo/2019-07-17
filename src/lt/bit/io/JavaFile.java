@@ -6,9 +6,9 @@ import java.io.IOException;
 public class JavaFile {
     public static void main(String[] args) throws Exception{
         createNewFile();
-        createNewDirectory();
-        createNewDirectories();
-        deleteFile();
+//        createNewDirectory();
+//        createNewDirectories();
+//        deleteFile();
     }
 
     private static void deleteFile() {

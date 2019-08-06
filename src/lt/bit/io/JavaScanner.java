@@ -7,7 +7,7 @@ public class JavaScanner {
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("Input String: ");
             String stringData = input.next();
-            System.out.println("your string ... " + stringData.length());
+            System.out.println("your string ... " + stringData.length() + stringData);
         } catch (Exception ex){
             ex.printStackTrace();
         }

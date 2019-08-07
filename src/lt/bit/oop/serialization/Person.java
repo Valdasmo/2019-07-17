@@ -1,16 +1,21 @@
 package lt.bit.oop.serialization;
 
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.MatchGenerator;
+
 import java.io.Serializable;
 
 public class Person implements Serializable {
+    private static final long serialVersionUID = 235235325L;
     private int id;
-    private String name;
+    private transient String name;
+    private int age;
 
     @Override
     public String toString() {
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", age=" + age +
                 '}';
     }
 
@@ -30,8 +35,17 @@ public class Person implements Serializable {
         this.name = name;
     }
 
-    public Person(int id, String name) {
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Person(int id, String name, int age) {
         this.id = id;
         this.name = name;
+        this.age = age;
     }
 }
